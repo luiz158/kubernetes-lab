@@ -2205,7 +2205,7 @@ Events:
 <p>Duration: 5:00</p>
 </div>
 <div class="paragraph">
-<p>When running pods using Replication Controllers, Replica Set, or Deployments, the pods can be scheduled to run on any machines in the Kubernetes cluster, and sometimes, the more than 1 of pod of the same application could be running on the same machine. This is not a behavior you&#8217;d want if you want to have exactly one instance of the pod on each of the machines in the Kubernetes clusters.</p>
+<p>When running pods using Replication Controllers, Replica Set, or Deployments, the pods can be scheduled to run on any machine in the Kubernetes cluster, and sometimes, more than 1 pod of the same application could be running on the same machine. This is not a behavior you&#8217;d want if you want to have exactly one instance of the pod on each of the machines in the Kubernetes clusters.</p>
 </div>
 <div class="paragraph">
 <p>A Daemon Set ensures that all (or some) nodes run a an instance of the pod. As nodes are added to the cluster, pods are added to them. As nodes are removed from the cluster, those pods are garbage collected. This is great for running per-machine daemons, such as:</p>
